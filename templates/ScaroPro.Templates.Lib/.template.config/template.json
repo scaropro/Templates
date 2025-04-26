@@ -2,14 +2,14 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "scaro.pro",
   "classifications": [ "ScaroPro" ],
-  "identity": "ScaroPro.Templates.ClassLib",
+  "identity": "ScaroPro.Templates.Lib",
   "name": "ScaroPro class library",
-  "shortName": "ScroPro.ClassLib",
+  "shortName": "ScaroPro.Lib",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "ScaroPro.Templates.ClassLib",
+  "sourceName": "ScaroPro.Templates.Lib",
   "symbols": {
     "packable": {
       "type": "parameter",
@@ -20,7 +20,7 @@
     }
   },
   "primaryOutputs": [{
-    "path": "ScaroPro.Templates.ClassLib.csproj"
+    "path": "ScaroPro.Templates.Lib.csproj"
   }],
   "postActions": [
     {

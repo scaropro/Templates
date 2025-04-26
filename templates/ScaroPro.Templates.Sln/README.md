@@ -1,0 +1,1 @@
+# ScaroPro.Templates.Sln

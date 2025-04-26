@@ -2,16 +2,16 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "scaro.pro",
   "classifications": [ "ScaroPro" ],
-  "identity": "ScaroPro.Templates.Console",
+  "identity": "ScaroPro.Templates.Cli",
   "name": "ScaroPro console application",
-  "shortName": "ScaroPro.Console",
+  "shortName": "ScaroPro.Cli",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "ScaroPro.Templates.Console",
+  "sourceName": "ScaroPro.Templates.Cli",
   "primaryOutputs": [{
-    "path": "ScaroPro.Templates.Console.csproj"
+    "path": "ScaroPro.Templates.Cli.csproj"
   }],
   "postActions": [
     {

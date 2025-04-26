@@ -1,1 +1,0 @@
-# ScaroPro.Templates.Solution

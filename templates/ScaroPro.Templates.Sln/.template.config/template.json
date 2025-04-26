@@ -2,11 +2,11 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "scaro.pro",
   "classifications": [ "ScaroPro" ],
-  "identity": "ScaroPro.Templates.Solution",
+  "identity": "ScaroPro.Templates.Sln",
   "name": "ScaroPro solution",
-  "shortName": "ScaroPro.Solution",
+  "shortName": "ScaroPro.Sln",
   "tags": { "language": "C#", "type": "project" },
-  "sourceName": "ScaroPro.Templates.Solution",
+  "sourceName": "ScaroPro.Templates.Sln",
   "symbols": {
     "Update": {
       "description": "Updates the solution template (overwrites only `Directory.Build.props` files).",

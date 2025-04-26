@@ -1,18 +1,18 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "FkThat",
-  "classifications": [ "FkThat" ],
-  "identity": "FkThat.Templates.XUnit",
-  "name": "FkThat xUnit test project",
-  "shortName": "ft-xunit",
+  "author": "scaro.pro",
+  "classifications": [ "ScaroPro" ],
+  "identity": "ScaroPro.Templates.XUnit",
+  "name": "ScaroPro xUnit test project",
+  "shortName": "ScaroPro.XUnit",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "FkThat.Templates.XUnit",
+  "sourceName": "ScaroPro.Templates.XUnit",
   "primaryOutputs": [
     {
-      "path": "FkThat.Templates.XUnit.csproj"
+      "path": "ScaroPro.Templates.XUnit.csproj"
     }
   ],
   "postActions": [

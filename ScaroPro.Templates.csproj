@@ -19,16 +19,16 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
     <NoDefaultExcludes>true</NoDefaultExcludes>
-    <Product>FkThat .NET CLI Templates</Product>
+    <Product>Scaro.Pro .NET CLI Templates</Product>
     <Description>The collection of custom .NET CLI templates.</Description>
-    <Company>fkthat</Company>
-    <Authors>fkthat</Authors>
-    <Copyright>© fkthat, 2025</Copyright>
+    <Company>scaro.pro</Company>
+    <Authors>scaro.pro</Authors>
+    <Copyright>© scaro.pro, 2025</Copyright>
     <RepositoryName>Templates</RepositoryName>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/fkthat/FkThat.Templates</RepositoryUrl>
+    <RepositoryUrl>https://github.com/scaropro/Templates</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/fkthat/FkThat.Templates</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/scaropro/Templates</PackageProjectUrl>
     <PackageTags>dotnet;cli;template</PackageTags>
   </PropertyGroup>
 

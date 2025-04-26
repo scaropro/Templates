@@ -1,17 +1,15 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "FkThat",
-  "classifications": [
-    "FkThat"
-  ],
-  "identity": "FkThat.Templates.ClassLib",
-  "name": "FkThat class library",
-  "shortName": "ft-classlib",
+  "author": "scaro.pro",
+  "classifications": [ "ScaroPro" ],
+  "identity": "ScaroPro.Templates.ClassLib",
+  "name": "ScaroPro class library",
+  "shortName": "ScroPro.ClassLib",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "FkThat.Templates.ClassLib",
+  "sourceName": "ScaroPro.Templates.ClassLib",
   "symbols": {
     "packable": {
       "type": "parameter",
@@ -22,7 +20,7 @@
     }
   },
   "primaryOutputs": [{
-    "path": "FkThat.Templates.ClassLib.csproj"
+    "path": "ScaroPro.Templates.ClassLib.csproj"
   }],
   "postActions": [
     {

@@ -1,12 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "fkthat",
-  "classifications": [ "FkThat" ],
-  "identity": "FkThat.Templates.Solution",
-  "name": "FkThat solution",
-  "shortName": "ft-sln",
+  "author": "scaro.pro",
+  "classifications": [ "ScaroPro" ],
+  "identity": "ScaroPro.Templates.Solution",
+  "name": "ScaroPro solution",
+  "shortName": "ScaroPro.Solution",
   "tags": { "language": "C#", "type": "project" },
-  "sourceName": "FkThat.Templates.Solution",
+  "sourceName": "ScaroPro.Templates.Solution",
   "symbols": {
     "Update": {
       "description": "Updates the solution template (overwrites only `Directory.Build.props` files).",

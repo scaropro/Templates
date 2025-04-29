@@ -1,13 +1,15 @@
 <Project>
   <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)..\'))" />
 
-  <!-- Determine the 'SUT' project name -->
+  <!-- Determine the 'SUT' project name                     -->
+  <!-- as the test project name without the '.Tests' suffix -->
   <PropertyGroup>
     <SutProjectName>$([System.Text.RegularExpressions.Regex]::Replace('$(MSBuildProjectName)', '\.Tests$', ''))</SutProjectName>
   </PropertyGroup>
 
   <!-- Ajust the root namespace -->
-  <PropertyGroup>
+  <!-- if not defined earlier. -->
+  <PropertyGroup Conditon="'$(RootNamespace)' == ''">
     <RootNamespace>$(SutProjectName)</RootNamespace>
   </PropertyGroup>
 
@@ -53,5 +55,4 @@
   <ItemGroup Condition="Exists($(SutProjectPath))">
     <ProjectReference Include="$(SutProjectPath)"/>
   </ItemGroup>
-
 </Project>

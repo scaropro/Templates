@@ -7,8 +7,7 @@
     <SutProjectName>$([System.Text.RegularExpressions.Regex]::Replace('$(MSBuildProjectName)', '\.Tests$', ''))</SutProjectName>
   </PropertyGroup>
 
-  <!-- Ajust the root namespace -->
-  <!-- if not defined earlier. -->
+  <!-- Ajust the root namespace if not defined earlier. -->
   <PropertyGroup Conditon="'$(RootNamespace)' == ''">
     <RootNamespace>$(SutProjectName)</RootNamespace>
   </PropertyGroup>

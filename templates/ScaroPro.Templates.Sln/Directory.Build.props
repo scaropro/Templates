@@ -1,6 +1,4 @@
 <Project>
-  <Import Project="$(MSBuildThisFileDirectory)Directory.Solution.props"/>
-
   <!-- Build properties -->
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -18,4 +16,6 @@
     <InternalsVisibleTo Include="DynamicProxyGenAssembly2"/>
   </ItemGroup>
 
+  <!-- Ovewritting the settings -->
+  <Import Project="$(MSBuildThisFileDirectory)Directory.Solution.props"/>
 </Project>

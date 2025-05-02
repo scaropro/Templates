@@ -1,6 +1,5 @@
 <!-- Properties not overritable on template update -->
 <Project>
-
   <!-- Version -->
   <PropertyGroup>
     <VersionPrefix>0.0.1</VersionPrefix>
@@ -20,5 +19,4 @@
     <PackageProjectUrl>https://github.com/scaropro/ScaroPro.Templates.Solution</PackageProjectUrl>
     <PackageTags></PackageTags>
   </PropertyGroup>
-
 </Project>
